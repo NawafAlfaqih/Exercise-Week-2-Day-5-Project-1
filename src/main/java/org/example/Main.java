@@ -5,6 +5,17 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Random;
 
+/*
+    I Was Planning to add "Ultimate TicTacToe" mode, but I prioritized cleaning the code and method calls
+    The Planned "Ultimate TicTacToe" mode rules:
+    - 9 sub-boards, each 3x3 inside a main board
+    - After a move, the chosen cell determines which sub-board the opponent must play next
+    - We check win on each sub-board and then check win on a 3x3 main board
+
+    But unfortunately couldn't make it in time, and I deleted the code related to the mode :(
+
+ */
+
 public class Main {
     public static void main(String[] args) {
 
